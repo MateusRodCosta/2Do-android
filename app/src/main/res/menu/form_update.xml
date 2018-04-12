@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/form_update_action"
+        android:icon="@drawable/done"
+        android:title="Salvar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/form_delete_action"
+        android:title="Excluir"
+        app:showAsAction="never"/>
+
+</menu>
